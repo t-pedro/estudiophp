@@ -7,8 +7,21 @@
 </head>
 <body>
     <?php 
+        //Comentario de una linea
         print "Bienvenidos al curso de PHP <br>";
         print "Hola Mundo <br>";
+        /* Comentario
+            de varias
+            lineas
+        */
+        //Variables
+        $nombre = "Federico";
+        print "El nombre del usuario es: " . $nombre;
+        $apellido = "Suarez";
+        print "<br>El apellido es: $apellido";
+        print '<br>Probamos imprimir con comilla simple: ' . $nombre;
+        echo "<br>" . $nombre;
+
         
         
         
