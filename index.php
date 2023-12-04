@@ -21,6 +21,14 @@
         print "<br>El apellido es: $apellido";
         print '<br>Probamos imprimir con comilla simple: ' . $nombre;
         echo "<br>" . $nombre;
+        //Funciones
+        echo "<br>Antes de la funcion";
+        function dameDatos(){
+            echo "<br>Soy una funcion <br>";
+        }
+        echo "<br>Despues de la funcion";
+        dameDatos();
+        include("externo.php");
 
         
         
