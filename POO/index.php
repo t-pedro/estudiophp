@@ -15,6 +15,11 @@
         $renault = new  Coche();
 
         echo "El mazda tiene " . $mazda->ruedas . " ruedas";
+        $mazda -> arrancar();
+        $mazda -> frenar();
+        $mazda -> establece_color("Gris oscuro");
+        $renault -> establece_color("Celeste");
+
     ?>
 </body>
 </html>

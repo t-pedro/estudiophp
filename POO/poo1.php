@@ -16,17 +16,17 @@
 
             //Métodos
             function arrancar(){
-                echo "Arrancó el vehículo";
+                echo "<br>Arrancó el vehículo";
             }
             function girar(){
-                echo "El vehículo esta doblando";
+                echo "<br>El vehículo esta doblando";
             }
             function frenar(){
-                echo "El vehículo está frenando";
+                echo "<br>El vehículo está frenando";
             }
             function establece_color($color_auto){
                 $this -> color = $color_auto;
-                echo "El color de este auto es: " . $this->color;
+                echo "<br>El color de este auto es: " . $this->color;
             }
         }
        
