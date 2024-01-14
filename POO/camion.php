@@ -8,6 +8,9 @@
         public function arrancarCamion(){
             parent::arrancarVehiculo();
         }
+        public function doblarCamion(){
+            echo "<br>El camion esta doblando";
+        }
     }
 
 ?>

@@ -10,11 +10,13 @@
         include("vehiculo.php");
         include("camion.php");
 
-       $camion1 = new Camion();
+       $camion1 = new Camion("blanco",3200);
        $camion1 ->setColorVehiculo("Rojo");
        echo $camion1 -> getColorVehiculo();
        $camion1 ->arrancarCamion();
-        
-    ?>
+       $camion1 -> doblarCamion();
+      $camion1 -> setMotorVehiculo(2300);
+       $camion1 -> getMotorVehiculo();
+?>
 </body>
 </html>
