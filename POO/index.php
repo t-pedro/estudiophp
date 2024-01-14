@@ -7,19 +7,13 @@
 </head>
 <body>
     <?php
-        include("poo1.php");
-        include("poo2.php");
+        include("vehiculo.php");
+        include("camion.php");
 
-        //Instanciamos un objeto
-        $mazda = new Camion();
-        $renault = new  Coche();
-
-        echo "El mazda tiene " . $mazda->ruedas . " ruedas";
-        $mazda -> arrancar();
-        $mazda -> frenar();
-        $mazda -> establece_color("Gris oscuro");
-        $renault -> establece_color("Celeste");
-
+       $camion1 = new Camion();
+       $camion1 ->setColorVehiculo("Rojo");
+       echo $camion1 -> getColorVehiculo();
+        
     ?>
 </body>
 </html>
