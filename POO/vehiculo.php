@@ -17,5 +17,9 @@
            public function getColorVehiculo(){
             return "El color del vehiculo es " . $this->color;
            }
+
+           protected function arrancarVehiculo(){
+                echo "<br>El vehiculo esta en marcha";
+           }
         }
 ?>

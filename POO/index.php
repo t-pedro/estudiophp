@@ -13,6 +13,7 @@
        $camion1 = new Camion();
        $camion1 ->setColorVehiculo("Rojo");
        echo $camion1 -> getColorVehiculo();
+       $camion1 ->arrancarCamion();
         
     ?>
 </body>

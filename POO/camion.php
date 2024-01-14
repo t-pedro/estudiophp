@@ -5,7 +5,9 @@
         //Constructor
         
         //Metodos propios
-        
+        public function arrancarCamion(){
+            parent::arrancarVehiculo();
+        }
     }
 
 ?>
