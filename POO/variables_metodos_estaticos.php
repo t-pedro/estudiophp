@@ -15,7 +15,9 @@
         $Maria = new Compra_Vehiculo("furgon");
         $Maria -> gps();    
         echo "<br>Vehiculo de Maria $" . $Maria ->precio_final();
-    
+        echo "<br>El auto de Antonio es de color " . $Antonio = Compra_Vehiculo::color_vehiculo("azul");
+        echo "<br>El auto de Maria es de color " . $Maria = Compra_Vehiculo::color_vehiculo("rosado");
+
     
     
     
